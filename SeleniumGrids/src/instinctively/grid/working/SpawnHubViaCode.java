@@ -17,7 +17,7 @@ public class SpawnHubViaCode {
 
 	@BeforeClass
 	public void bringUpHubAndNode() throws Exception {
-		GridHubConfiguration ghc = GridHubConfiguration.loadFromJSON("sampleHub.json");
+		GridHubConfiguration ghc = GridHubConfiguration.loadFromJSON("hubConfig.json");
 		myHub = new Hub(ghc);
 		myHub.start();
 		System.out.println("hub configs: " + myHub.getConfiguration());

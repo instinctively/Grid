@@ -2,7 +2,7 @@
 <suite name="Parallel Logging to file" parallel="tests" thread-count="4">
   <test name="Regression 1">
     <classes>
-      <class name="org.instinctively.grid.testing.ParallelLogging"/>
+      <class name="instinctively.grid.working.logging.LoggingToFileTest"/>
     </classes>
   </test>
 </suite>
