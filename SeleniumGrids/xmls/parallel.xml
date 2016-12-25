@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" parallel="methods" group-by-instances="true"
+object-factory="org.instinctively.grid.testing.parallel.MyObjectFactory">
+    <test name="instances">
+        <packages>
+            <package name="org.instinctively.grid.testing.parallel.test.*"/>
+        </packages>
+    </test>
+</suite> 
